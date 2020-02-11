@@ -94,7 +94,8 @@ def dictionaries():
     # Get the third job Grace has that you recently added
     p=fuck['jobs'][-1]
     # Use the sort() function to get sorted keys of amazing_grace in alphabetically ascending order
-    k=fuck.keys().sort()
+    k=fuck.keys()
+    k.sort()
     return a, f, p, k
 
 numbers_and_strings()
